@@ -1,0 +1,34 @@
+.encriptacion{
+    width: 100%;
+    padding: 2rem 6% 1rem;
+}
+.encriptacion__texto{
+    width: 100%;
+    background-color: var(--caja-fondo);
+    border: solid 1px var(--caja-borde);
+    background-image: url(../Imagenes/BotW_Stasis_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 525px;
+    font-size: 2rem;
+    padding: 1rem 0 0 1.5rem;
+    font-weight: 300;
+}
+
+.encriptacion__texto:focus{
+    outline-style: none;
+}
+
+.btnCopiar{
+    margin: 1rem 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .encriptacion{
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}

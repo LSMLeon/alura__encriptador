@@ -1,0 +1,33 @@
+:root{
+    --texto: rgb(188, 187, 183);
+    --caja-borde: rgb(47, 43, 43, 0.75);
+    --caja-fondo: rgb(0, 0, 0, 0.3333);
+    --boton-hover: antiquewhite;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: var(--texto);
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../Imagenes/fondo__botw.png);
+    background-size: cover;
+    background-repeat: unset;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+

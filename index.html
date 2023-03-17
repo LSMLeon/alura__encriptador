@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <meta name="viewport" content="device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/encriptador.css">
+    <link rel="stylesheet" href="styles/encriptacion.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>Encriptador Sheikah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="Imagenes/logo.png" alt="Símbolo Sheikah">
+    </header>
+    <main class="main">
+        <section class="encriptador container">
+            <textarea class="encriptador__texto" cols="30" rows="10" placeholder="escriba su mensaje" autofocus></textarea>
+            <p class="encriptador__disclaimer">Solo letras minúsculas y sin acentos</p>
+            <div class="encriptador__btns">
+                <button class="btn encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="encriptacion container">
+            <textarea id="texto__procesado" class="encriptacion__texto" cols="30" rows="10" ></textarea>
+            <button id="copiar" class="btn btnCopiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__disclaimer">Diseño inspirado en <em>The Legend of Zelda: Breath of the Wild</em>.</p>
+        <br>
+        <p class="footer__disclaimer">Creado por Luis Mauleón</em>.</p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
